@@ -17,7 +17,7 @@ public class Task1 {
 		int circle2Radius=scanner.nextInt();
 		
 		int distanceSquare = (circle1X-circle2X)*(circle1X-circle2X)+(circle1Y-circle2Y)*(circle1Y-circle2Y);
-		int sumRadius = circle1Radius + circle2Radius;
+		int sumRadius = (circle1Radius + circle2Radius)*(circle1Radius + circle2Radius);
 		if(distanceSquare<sumRadius)
 		{
 			System.out.println("두 원은 서로 겹친다.");
